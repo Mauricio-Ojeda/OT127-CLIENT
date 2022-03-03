@@ -1,31 +1,10 @@
-# Ong Client
+# Proyecto para la ONG Somos Mas
 
-## Available Scripts
+Se creo un sitio web que sea su carta de presentación donde puedan compartir novedades con la comunidad, contar sobre el trabajo que llevan a cabo, invitar a interesados/as a participar como voluntarios/as o donantes (de dinero o materiales), y donde puedan compartir información (a partir de información recopilada a través de la página) sobre el equipo que esta atrás de cada acción que lleva a cabo la organización. La página cuenta con una vista publica y un panel de administrador donde van a poder administrar el sitio web de manera independiente.
 
-In the project directory, you can run:
+## Tegnologias implementadas
 
-### `yarn start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+React, Redux-toolkit, Sass, Axios, Formik, ckeditor, mercado pago
 
 ### Componente Skeleton
 
@@ -96,7 +75,7 @@ El componente ya viene con valores por defecto y se puede utilizar solo.
 <Progress />
 ```
 
-Si se de sea personalizar se puede hacer mediante props. Se puede modificar el color principal con primaryColor, el color de fondo con backgroundColor, la altura de la barra con height y redondear los bordes con borderRadius
+Si se desea personalizar se puede hacer mediante props. Se puede modificar el color principal con primaryColor, el color de fondo con backgroundColor, la altura de la barra con height y redondear los bordes con borderRadius
 
 Ejemplo de uso:
 
